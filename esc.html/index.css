@@ -23,25 +23,25 @@ header img {
     border: 5px solid rgb(19, 0, 128);
 }
 .img1 {
-    width: 350px;
-    height: 255px;
+    width: 550px;
+    height: 355px;
     border-radius: 5%;
     border: 5px solid rgb(19, 0, 128);
-    float: right;
+    float: center;
     }
     .img2 {
         width: 350px;
         height: 255px;
         border-radius: 5%;
         border: 5px solid rgb(19, 0, 128);
-        float: none;
+        float: center;
     }
         .img3 {
             width: 350px;
             height: 255px;
             border-radius: 5%;
             border: 5px solid rgb(19, 0, 128);
-            float: left;
+            float: center;
 
             }
 .center {
@@ -80,3 +80,5 @@ h6 {text-align: center;}
 .container {background-color: rgb(19, 0, 128);}
 
 .b2 {background-color: rgb(255, 255, 255);}
+
+.p2 {background-color: rgb(15, 15, 15);}
