@@ -1,0 +1,82 @@
+body{
+    color: white;
+    background-color: black;
+font-family: Arial, Helvetica, sans-serif; }
+
+    
+ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    align-items: center;
+    padding: 16px;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+  
+header img {
+    width: 245px;
+    height: 170px;
+    border-radius: 10%;
+    border: 5px solid rgb(19, 0, 128);
+}
+.img1 {
+    width: 350px;
+    height: 255px;
+    border-radius: 5%;
+    border: 5px solid rgb(19, 0, 128);
+    float: right;
+    }
+    .img2 {
+        width: 350px;
+        height: 255px;
+        border-radius: 5%;
+        border: 5px solid rgb(19, 0, 128);
+        float: none;
+    }
+        .img3 {
+            width: 350px;
+            height: 255px;
+            border-radius: 5%;
+            border: 5px solid rgb(19, 0, 128);
+            float: left;
+
+            }
+.center {
+    text-align: center;
+}
+
+
+.p1 {column-width: 120 cm;}
+h1 {
+    color: rgb(19, 0, 128);
+}
+footer img{
+    width: 40px;
+    height: 40px;
+}  
+footer {
+    display: flex;
+    justify-content: center;
+}
+ footer a {
+    text-align: center;
+    margin: 20px;
+ }
+footer p{
+    margin: 2px;
+}
+.container{
+    padding:0px 50px;
+}
+
+ nav a:hover {
+    color: rgb(19, 0, 128);
+}
+h6 {text-align: center;}
+
+.container {background-color: rgb(19, 0, 128);}
+
+.b2 {background-color: rgb(255, 255, 255);}
