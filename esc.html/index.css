@@ -73,12 +73,23 @@ footer p{
 }
 
  nav a:hover {
-    color: rgb(19, 0, 128);
+    color: rgb(137, 108, 255);
 }
-h6 {text-align: center;}
+h6 {text-align: center;
+}
 
-.container {background-color: rgb(19, 0, 128);}
+.container {background-color: rgb(19, 0, 128);
+            width: 1400px;
+            height: 50px;
+}          
 
-.b2 {background-color: rgb(255, 255, 255);}
+.b2 {background-color: rgb(255, 255, 255);
+}
 
-.p2 {background-color: rgb(15, 15, 15);}
+.p2 {background-color: #000000;
+     width: 700px;
+     height: 100px;
+     display: inline-block;
+     text-align: center;
+
+}
