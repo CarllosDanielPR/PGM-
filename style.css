@@ -1,95 +1,60 @@
-body{
-    color: white;
-    background-color: black;
-font-family: Arial, Helvetica, sans-serif; }
-
-    
-ul {
-    display: flex;
-    justify-content: space-between;
-    list-style: none;
-    align-items: center;
-    padding: 16px;
-}
-a {
-    color: white;
-    text-decoration: none;
-}
-  
-header img {
-    width: 245px;
-    height: 170px;
-    border-radius: 10%;
-    border: 5px solid rgb(19, 0, 128);
-}
-.img1 {
-    width: 550px;
-    height: 355px;
-    border-radius: 5%;
-    border: 5px solid rgb(19, 0, 128);
-    float: center;
-    }
-    .img2 {
-        width: 350px;
-        height: 255px;
-        border-radius: 5%;
-        border: 5px solid rgb(19, 0, 128);
-        float: center;
-    }
-        .img3 {
-            width: 350px;
-            height: 255px;
-            border-radius: 5%;
-            border: 5px solid rgb(19, 0, 128);
-            float: center;
-
-            }
-.center {
-    text-align: center;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-
-.p1 {column-width: 120 cm;}
-h1 {
-    color: rgb(19, 0, 128);
-}
-footer img{
-    width: 40px;
-    height: 40px;
-}  
-footer {
-    display: flex;
-    justify-content: center;
-}
- footer a {
-    text-align: center;
-    margin: 20px;
- }
-footer p{
-    margin: 2px;
-}
-.container{
-    padding:0px 50px;
+body {
+    background-color: #02006a;
+    font-family: Arial, sans-serif;
 }
 
- nav a:hover {
-    color: rgb(137, 108, 255);
-}
-h6 {text-align: center;
-}
-
-.container {background-color: rgb(19, 0, 128);
-            width: 1400px;
-            height: 50px;
-}          
-
-.b2 {background-color: rgb(255, 255, 255);
+#game-container {
+    position: relative;
+    width: 500px;
+    height: 600px;
+    margin: 50px auto;
+    background-color: #1e17ff;
+    border: 2px solid #000;
+    overflow: hidden;
 }
 
-.p2 {background-color: #000000;
-     width: 700px;
-     height: 100px;
-     display: inline-block;
-     text-align: center;
+#score-board {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: 20px;
+}
 
+#player {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    width: 60px;
+    height: 20px;
+    background-color: #000000;
+    border-radius: 5px;
+    transform: translateX(-50%);
+}
+
+#falling-object {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 20px;
+    height: 20px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 50%;
+    transform: translateX(-50%);    
+}
+
+.cas {
+    background-color: #000;
+    width: 1500px;
+    height: 70px;
+
+
+}
+nav a:hover {
+    color: rgb(255, 21, 21);
 }
